@@ -18,6 +18,7 @@ typedef struct Object{
   int fitness;
 }Object;
 
+//함수들
 void print_population(Object* o);
 int is_weight_under10(Object* o); // 안넘으면 1 반환 아니면 0
 void create_population(Object* o, Gold g);
